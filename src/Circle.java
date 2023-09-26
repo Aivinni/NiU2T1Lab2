@@ -1,5 +1,5 @@
 public class Circle {
-    private double radius;
+    private final double radius;
     private double area;
     public Circle(double r) {
         radius = r;
