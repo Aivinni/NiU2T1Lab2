@@ -11,8 +11,7 @@ public class Circle {
         return area;
     }
     public void findArea() {
-        Rectangle rect1 = new Rectangle();
-        area = rect1.getX() * rect1.getY();
+        area = calculateArea();
         System.out.println(area);
     }
 }
