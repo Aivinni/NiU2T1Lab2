@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class Circle {
     private final double radius;
     private double area;
